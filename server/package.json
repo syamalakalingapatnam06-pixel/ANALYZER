@@ -1,0 +1,32 @@
+{
+  "name": "resume-analyzer-server",
+  "version": "1.0.0",
+  "description": "AI-Powered Resume Analyzer Backend API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.9.12",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "docx": "^8.5.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "jszip": "^3.10.2",
+    "mammoth": "^1.8.0",
+    "mongoose": "^8.7.2",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.68.0",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
